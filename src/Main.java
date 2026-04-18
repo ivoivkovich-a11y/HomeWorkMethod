@@ -1,14 +1,14 @@
 
 //Задача №1
-public static void printLeapYear (short yaer1) {
+public static void printLeapYear (short yaer) {
     short startYear = 1584;
-    int everyFourthYear = yaer1 % 4;
-    int everyFourHundredthYear = yaer1 % 400;
-    int everyHundredthYear = yaer1 % 100;
-    if ((everyFourthYear == 0 || everyFourHundredthYear == 0 && everyHundredthYear != 0) && yaer1 >= startYear) {
-        System.out.println(yaer1 + " год является високосным");
+    int everyFourthYear = yaer % 4;
+    int everyFourHundredthYear = yaer % 400;
+    int everyHundredthYear = yaer % 100;
+    if ((everyFourthYear == 0 || everyFourHundredthYear == 0 && everyHundredthYear != 0) && yaer >= startYear) {
+        System.out.println(yaer + " год является високосным");
     } else {
-        System.out.println(yaer1 + " год не является високосным");
+        System.out.println(yaer + " год не является високосным");
     }
 }
 //Задача №2
@@ -62,4 +62,5 @@ void main() {
         printDelivery(deliveryDistance);
 //Задача №3
     }
+
 }
