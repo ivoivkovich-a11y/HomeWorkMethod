@@ -17,5 +17,4 @@ void main() {
     System.out.println("Задача №1");
     short year = 2024;
     printLeapYear(year);
-
 }
