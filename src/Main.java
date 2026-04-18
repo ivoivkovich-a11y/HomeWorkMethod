@@ -24,6 +24,7 @@ public static void printVersionDevice (byte clientOS, short clientDeviceYear) {
         System.out.println("Установите версию приложения для iOS по ссылке");
     }
 }
+//Задача №3
 public static void printDelivery (byte deliveryDistance) {
     byte day1 = 1;
     byte day2 = 2;
